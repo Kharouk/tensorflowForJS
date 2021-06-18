@@ -7,63 +7,63 @@
   <body>
     <div>
       <img
-        id="cat1"
+        id="mask1"
         crossorigin
-        src="cats/cat1.jpeg"
+        src="masks/mask1.jpeg"
         height="50px"
-        onclick="addExample('cat1', 0)"
+        onclick="addExample('mask1', 0)"
       />
       <img
-        id="cat2"
+        id="mask2"
         crossorigin
-        src="cats/cat2.jpeg"
+        src="masks/mask2.jpeg"
         height="50px"
-        onclick="addExample('cat2', 0)"
+        onclick="addExample('mask2', 0)"
       />
       <img
-        id="cat3"
+        id="mask3"
         crossorigin
-        src="cats/cat3.jpeg"
+        src="masks/mask3.jpeg"
         height="50px"
-        onclick="addExample('cat3', 0)"
+        onclick="addExample('mask3', 0)"
       />
       <img
-        id="cat4"
+        id="mask4"
         crossorigin
-        src="cats/cat4.jpeg"
+        src="masks/mask4.jpeg"
         height="50px"
-        onclick="addExample('cat4', 0)"
+        onclick="addExample('mask4', 0)"
       />
     </div>
 
     <div>
       <img
-        id="dog1"
+        id="noMask1"
         crossorigin
-        src="dogs/dog1.jpeg"
+        src="noMasks/noMask.jpeg"
         height="50px"
-        onclick="addExample('dog1', 1)"
+        onclick="addExample('noMask1', 1)"
       />
       <img
-        id="dog2"
+        id="noMask2"
         crossorigin
-        src="dogs/dog2.jpeg"
+        src="noMasks/noMask2.jpeg"
         height="50px"
-        onclick="addExample('dog2', 1)"
+        onclick="addExample('noMask2', 1)"
       />
       <img
-        id="dog3"
+        id="noMask3"
         crossorigin
-        src="dogs/dog3.jpeg"
+        src="noMasks/noMask3.jpeg"
         height="50px"
-        onclick="addExample('dog3', 1)"
+        onclick="addExample('noMask3', 1)"
       />
       <img
-        id="dog4"
+        id="noMask4"
         crossorigin
-        src="dogs/dog4.jpeg"
+        src="noMasks/noMask4.jpeg"
         height="50px"
-        onclick="addExample('dog4', 1)"
+        onclick="addExample('noMask4', 1)"
       />
     </div>
 
@@ -71,20 +71,20 @@
 
     <div>
       <img
-        id="iscat"
+        id="wearingMask"
         crossorigin
-        src="cats/cat.jpeg"
+        src="masks/mask1.jpeg"
         height="200px"
-        onclick="catOrDog('iscat')"
+        onclick="maskOrNoMask('wearingMask')"
       />
     </div>
     <div>
       <img
-        id="isdog"
+        id="notWearingMask"
         crossorigin
-        src="dogs/dog.jpeg"
+        src="noMasks/noMask.jpeg"
         height="200px"
-        onclick="catOrDog('isdog')"
+        onclick="maskOrNoMask('notWearingMask')"
       />
     </div>
 
@@ -94,10 +94,10 @@
         crossorigin
         src="carrot.jpeg"
         height="200px"
-        onclick="catOrDog('carrot')"
+        onclick="maskOrNoMask('carrot')"
       />
     </div>
 
-    <script src="finetune.js"></script>
+    <script src="maskTask.js"></script>
   </body>
 </html>
