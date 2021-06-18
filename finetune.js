@@ -10,7 +10,7 @@ const addExample = async (imgid, classId) => {
   console.log("DONE");
 };
 
-const catordog = async (imgid) => {
+const catOrDog = async (imgid) => {
   console.log("predicting...");
   const img = document.getElementById(imgid);
   const activation = net.infer(img, "conv_preds");
